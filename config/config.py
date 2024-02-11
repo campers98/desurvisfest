@@ -56,7 +56,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Velakenna/epdiyo-testing",
+    "https://github.com/campers98/desurvisfest",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -167,11 +167,11 @@ autoclean = []
 # Images
 START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/4db69f4c9edf513e159f9.jpg")
 
-PAUSE_IMG_URL = getenv("PAUSE_IMG_URL", None)
+PAUSE_IMG_URL = getenv("PAUSE_IMG_URL", "https://te.legra.ph/file/4046376cfd8b6df1cc971.jpg")
 
-RESUME_IMG_URL = getenv("RESUME_IMG_URL", None)
+RESUME_IMG_URL = getenv("RESUME_IMG_URL", "https://te.legra.ph/file/7f072e1fd3ac6342b7a2f.jpg")
 
-QUEUE_IMG_URL = getenv("QUEUE_IMG_URL", None)
+QUEUE_IMG_URL = getenv("QUEUE_IMG_URL", "https://te.legra.ph/file/5e12f27d36f305980ff84.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
