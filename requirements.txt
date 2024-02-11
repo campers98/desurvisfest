@@ -11,7 +11,7 @@ lyricsgenius
 motor==3.2.0
 pillow
 psutil
-py-tgcalls==2.1.0
+py-tgcalls==1.2.2
 pykeyboard
 pyrogram==2.0.106
 python-dotenv
@@ -25,3 +25,4 @@ youtube-search-python
 git+https://github.com/yt-dlp/yt-dlp.git
 #yt-dlp
 numpy
+pip==24.0
