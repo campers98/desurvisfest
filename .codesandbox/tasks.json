@@ -1,0 +1,34 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "sudo apt-get update && sudo apt-get upgrade -y",
+      "name": "python3 -m YukkiMusic"
+    },
+    {
+      "command": "sudo apt-get install python3-pip ffmpeg -y",
+      "name": "sudo apt-get install python3-pip ffmpeg -y"
+    },
+    {
+      "command": "sudo pip3 install -U pip",
+      "name": "sudo pip3 install -U pip"
+    },
+    {
+      "command": "pip3 install -U -r requirements.txt",
+      "name": "pip3 install -U -r requirements.txt"
+    },
+    {
+      "command": "bash start",
+      "name": "bash start"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "python3 -m YukkiMusic": {
+      "name": "python3 -m YukkiMusic",
+      "command": "python3 -m YukkiMusic",
+      "runAtStart": true
+    }
+  }
+}
